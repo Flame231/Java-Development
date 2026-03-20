@@ -8,9 +8,9 @@ import java.util.Map;
 public class DataBase {
     public static final Map<Integer, String> map = Map.of(4, "int", 12, "varchar", 91, "date", 93, "dateTime", 92, "time", -1, "text");
     private String sqlQuery;
-    List<String> valueList = new ArrayList<>();
-    List<String> ColumnNameList = new ArrayList<>();
-    int columnCount;
+    private List<String> valueList = new ArrayList<>();
+    private List<String> ColumnNameList = new ArrayList<>();
+    private int columnCount;
 
     public DataBase(String sqlQuery) throws SQLException {
         this.sqlQuery = sqlQuery;
