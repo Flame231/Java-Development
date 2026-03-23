@@ -11,6 +11,6 @@ import lombok.experimental.SuperBuilder;
 @Data
 @NoArgsConstructor
 @DiscriminatorValue("WorkTask")
-public class WorkTask extends Task{
-    int cost;
+public class WorkTask extends Task {
+    private int cost;
 }

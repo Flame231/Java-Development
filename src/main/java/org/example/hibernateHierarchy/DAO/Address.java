@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Embeddable
 public class Address {
     @Column
-    String street;
+    private String street;
     @Column
-    String city;
+    private String city;
 }
