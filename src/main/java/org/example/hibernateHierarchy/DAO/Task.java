@@ -18,8 +18,8 @@ public class Task {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column
-    String name;
+    private String name;
     @Column
-    String description;
+    private String description;
 
 }
