@@ -70,7 +70,6 @@ public class AppTest {
 
                 }
         }
-
     }
 
     public void ageFilter(Person person, List<Person> list) {

@@ -27,7 +27,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.30</version> <!-- Укажите актуальную версию -->
+            <version>1.18.44</version> <!-- Укажите актуальную версию -->
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -53,6 +53,12 @@
             <version>5.10.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.2.224</version> <!-- Укажите актуальную версию -->
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -73,7 +79,7 @@
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
-                            <version>1.18.30</version> <!-- Должна совпадать с версией в dependencies -->
+                            <version>1.18.44</version> <!-- Должна совпадать с версией в dependencies -->
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
