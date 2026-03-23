@@ -21,9 +21,9 @@
         <property name="hibernate.hbm2ddl.auto">create</property>
 
         <!-- Регистрация ваших классов-сущностей -->
-        <mapping class="org.example.hibernateHierarchy.Task"/>
-        <mapping class="org.example.hibernateHierarchy.HomeTask"/>
-        <mapping class="org.example.hibernateHierarchy.WorkTask"/>
-        <mapping class="org.example.hibernateHierarchy.Address"/>
+        <mapping class="org.example.hibernateHierarchy.DAO.Task"/>
+        <mapping class="org.example.hibernateHierarchy.DAO.HomeTask"/>
+        <mapping class="org.example.hibernateHierarchy.DAO.WorkTask"/>
+        <mapping class="org.example.hibernateHierarchy.DAO.Address"/>
     </session-factory>
 </hibernate-configuration>
